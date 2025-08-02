@@ -8,7 +8,7 @@ A comprehensive offline medical information system that provides evidence-based 
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
 
-## DEMPLOYMENT LINK:https://medical-rag-system-rvd6cry6xkznemhysxetp6.streamlit.app/
+## DEPLOYMENT LINK:https://medical-rag-system-rvd6cry6xkznemhysxetp6.streamlit.app/
 
 ## 🌟 Features
 
