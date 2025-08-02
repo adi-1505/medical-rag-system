@@ -9,6 +9,10 @@ A comprehensive offline medical information system that provides evidence-based 
 
 
 ## DEPLOYMENT LINK:https://medical-rag-system-rvd6cry6xkznemhysxetp6.streamlit.app/
+After opening click initialize Enterprise System
+
+<img width="1836" height="575" alt="image" src="https://github.com/user-attachments/assets/eb697755-7cee-4f17-96fd-1c61dd6ed977" />
+
 
 ## 🌟 Features
 
