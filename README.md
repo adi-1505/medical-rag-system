@@ -50,7 +50,8 @@ pip install -r requirements.txt
 
 3. **Run the application**
 ```bash
-streamlit run app-no-openai.py
+streamlit run app-simple.py
+
 ```
 
 4. **Open your browser**
@@ -113,7 +114,7 @@ Medical Knowledge Database
 
 ```
 medical-rag-offline/
-├── app-no-openai.py          # Main Streamlit application
+├── app-simple.py          # Main Streamlit application
 ├── requirements.txt          # Python dependencies
 ├── README.md                # This documentation
 └── assets/                  # Additional resources (if any)
@@ -122,7 +123,7 @@ medical-rag-offline/
 ## 🔧 Configuration
 
 ### Customizing the Knowledge Base
-The medical knowledge is stored in the `MEDICAL_KNOWLEDGE` dictionary within `app-no-openai.py`. To add new medical topics:
+The medical knowledge is stored in the `MEDICAL_KNOWLEDGE` dictionary within `app-simple.py`. To add new medical topics:
 
 1. **Add new topic structure**:
 ```python
@@ -183,12 +184,12 @@ That's it! The offline version has minimal dependencies by design.
 
 ### Local Development
 ```bash
-streamlit run app-no-openai.py
+streamlit run app-simple.py
 ```
 
 ### Network Sharing
 ```bash
-streamlit run app-no-openai.py --server.address 0.0.0.0 --server.port 8501
+streamlit run app-simple.py --server.address 0.0.0.0 --server.port 8501
 ```
 Access from other devices on your network at `http://your-ip:8501`
 
@@ -200,7 +201,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
 EXPOSE 8501
-CMD ["streamlit", "run", "app-no-openai.py", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "app-simple.py", "--server.address", "0.0.0.0"]
 ```
 
 ## 🔄 Updates and Maintenance
