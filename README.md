@@ -6,6 +6,7 @@ A comprehensive, user-friendly medical information system that provides evidence
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red?style=flat-square&logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+deployed link:https://medical-rag-system-rvd6cry6xkznemhysxetp6.streamlit.app/
 
 ## 🌟 Key Features
 
