@@ -35,7 +35,33 @@ A comprehensive, user-friendly medical information system that provides evidence
   - Drug interactions with severity ratings
   - Dosage guidelines & pregnancy categories
   - Required monitoring parameters
+### 💊 **Drug Combinations & Interaction Safety**
+The Advanced Medical RAG Assistant provides a dedicated Drug Interaction Checker to help users quickly assess the safety of combining two medications. Its database includes major prescription drugs, common over-the-counter medicines, and drug classes such as NSAIDs, antibiotics, and steroids. The system recognizes both generic and popular brand names (e.g., Advil, Tylenol, Coumadin), so users can enter the medication name as commonly known.
 
+How It Works
+Users enter the names of two medications.
+
+The checker uses smart matching to find both direct drug-to-drug and drug-class interactions.
+
+Each interaction is shown with:
+
+Severity Level (🔴 Major, 🟡 Moderate, 🟢 Minor)
+
+Specific effect or risk (e.g., bleeding risk, liver damage, loss of effectiveness)
+
+Brand and generic drug names mapped automatically for ease of use
+
+Safety & Medical Guidance
+Major/high-risk combinations are flagged with urgent warnings.
+
+The assistant gives detailed, plain-language descriptions of the interaction effect and always advises consulting a healthcare professional before combining or modifying medications.
+
+The tool also displays a list of common high-risk combinations (e.g., Warfarin + Aspirin, Alcohol + Acetaminophen) as a quick reference for safety.
+
+Disclaimer:
+The drug interaction tool is for informational and educational use only. It does not replace medical judgment or professional advice. Always consult a pharmacist or healthcare provider before starting, stopping, or combining any medications.
+
+With this robust drug combination checker, users get instant, evidence-based insights—helping them avoid some of the most common medication dangers and empowering safer health decisions.
 ### 🩺 **Advanced Symptom Checker**
 - **100+ Symptoms** mapped to possible conditions
 - AI-powered relevance scoring system
