@@ -1,40 +1,43 @@
-# 🩺 Medical Literature RAG Assistant (Offline Version)
+# 🏥 Advanced Medical RAG Assistant
 
-A comprehensive offline medical information system that provides evidence-based medical information without requiring API keys, internet connectivity, or cloud services.
+A comprehensive, user-friendly medical information system that provides evidence-based medical information with an intuitive interface and extensive knowledge base.
 
-![Medical RAG Banner](https://img.shields.io/badge/Medical-RAG%20System-blue?style=for-the-badge&logo=medical-cross)
+![Medical Assistant Banner](https://img.shields.io/badge/Medical-RAG%20Assistant-blue?style=for-the-badge&logo=medical-cross)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red?style=flat-square&logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
+## 🌟 Key Features
 
-## DEPLOYMENT LINK:https://medical-rag-system-rvd6cry6xkznemhysxetp6.streamlit.app/
-After opening click initialize Enterprise System
+### ✅ **Comprehensive Medical Knowledge**
+- **100+ Medical Conditions** - Detailed information on symptoms, treatments, and prevention
+- **Extensive Drug Database** - Drug interactions, side effects, and dosing information
+- **Symptom Checker** - AI-powered symptom analysis with relevance scoring
+- **Emergency Detection** - Automatic alerts for potentially serious conditions
 
-<img width="1836" height="575" alt="image" src="https://github.com/user-attachments/assets/eb697755-7cee-4f17-96fd-1c61dd6ed977" />
+### 🎯 **Advanced User Interface**
+- **Modern Healthcare Design** - Professional medical color scheme and layout
+- **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices
+- **Interactive Elements** - Expandable sections, quick actions, and real-time search
+- **User Profile Management** - Personalized medical information and history
 
+### 🔍 **Intelligent Search System**
+- **Semantic Search** - Advanced relevance scoring and keyword matching
+- **Multiple Search Types** - General search, symptom checker, drug info, treatments
+- **Real-time Results** - Instant search with confidence scoring
+- **Search History** - Track and revisit previous queries
 
-## 🌟 Features
+### 🛠️ **Medical Tools**
+- **Drug Interaction Checker** - Check for dangerous drug combinations
+- **BMI Calculator** - Calculate and interpret Body Mass Index
+- **Emergency Contacts** - Quick access to emergency numbers
+- **Health Tips** - Daily personalized health recommendations
 
-### ✅ **Completely Offline**
-- **No API keys required** - Works without OpenAI or Azure accounts
-- **No internet needed** - All medical knowledge stored locally
-- **No cloud dependencies** - Runs entirely on your machine
-- **No costs** - Zero ongoing expenses
-
-### 🏥 **Comprehensive Medical Knowledge**
-- **Diabetes Management** - Symptoms, diagnosis, treatment, complications
-- **Hypertension Guidelines** - Classification, treatment, risk factors
-- **Drug Interactions** - Warfarin, statins, ACE inhibitors, prevention strategies
-- **Evidence-based Information** - Based on clinical guidelines and medical literature
-
-### 🎯 **Professional Interface**
-- **Medical-themed design** with healthcare color scheme
-- **Sample medical queries** for quick testing
-- **Query history tracking** to review previous searches
-- **Source information display** showing knowledge base origins
-- **Confidence scoring** based on content relevance
-- **Medical disclaimers** for appropriate usage context
+### 🔒 **Privacy & Safety**
+- **Completely Offline** - No data transmission or cloud dependencies
+- **Medical Disclaimers** - Appropriate warnings and guidance
+- **Emergency Alerts** - Automatic detection of emergency conditions
+- **Professional Guidance** - Clear recommendations to consult healthcare providers
 
 ## 🚀 Quick Start
 
@@ -44,269 +47,299 @@ After opening click initialize Enterprise System
 
 ### Installation
 
-1. **Clone or download this repository**
+1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/medical-rag-offline.git
-cd medical-rag-offline
+git clone https://github.com/your-username/advanced-medical-rag.git
+cd advanced-medical-rag
 ```
 
 2. **Install dependencies**
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-enhanced.txt
 ```
 
 3. **Run the application**
 ```bash
-streamlit run app-simple.py
-
+streamlit run app-enhanced.py
 ```
 
-4. **Open your browser**
-- The app will automatically open at `http://localhost:8501`
-- If not, manually navigate to that address
+4. **Access the application**
+- Open your browser to `http://localhost:8501`
+- The app will automatically launch with the new interface
 
-## 💻 Usage
+## 💻 How to Use
 
 ### Getting Started
-1. **Initialize System** - Click the "Initialize System" button in the sidebar
-2. **Ask Questions** - Enter medical questions in the text area
-3. **Get Responses** - Receive evidence-based answers from the knowledge base
-4. **Review Sources** - Expand source information to see detailed content
+1. **System Initialization** - The app automatically loads the medical knowledge base
+2. **Ask Questions** - Use natural language to ask medical questions
+3. **Browse Results** - Explore detailed medical information with confidence scores
+4. **Use Tools** - Access drug checker, BMI calculator, and other medical tools
 
 ### Sample Queries
-Try these example medical questions:
-- "What are the symptoms of type 2 diabetes?"
-- "How is hypertension classified?"
-- "What are warfarin drug interactions?"
-- "What is the treatment for diabetes?"
-- "What are the risk factors for hypertension?"
+Try these comprehensive medical questions:
+- "What are the symptoms and treatment options for type 2 diabetes?"
+- "How dangerous is the interaction between warfarin and aspirin?"
+- "I have chest pain and shortness of breath - should I be worried?"
+- "What are the risk factors for heart disease and how can I prevent it?"
+- "What are the side effects of metformin and who should avoid it?"
+- "When should I see a doctor for recurring headaches?"
 
-### Query Types Supported
-- **Symptom identification** - Disease symptoms and presentations
-- **Diagnostic criteria** - Clinical diagnostic guidelines
-- **Treatment options** - Therapeutic approaches and medications
-- **Drug interactions** - Medication safety and interactions
-- **Risk factors** - Disease risk assessment
-- **Clinical classifications** - Medical categorization systems
+### Search Types
+- **General Search** - Broad medical information search
+- **Symptom Checker** - Analyze symptoms and possible conditions
+- **Drug Information** - Detailed medication information
+- **Treatment Options** - Available treatments for conditions
+- **Prevention Guidelines** - Preventive care recommendations
 
 ## 🏗️ System Architecture
 
-### Knowledge Base Structure
+### Enhanced Knowledge Base
 ```
-Medical Knowledge Database
-├── Diabetes
-│   ├── Symptoms
-│   ├── Diagnosis
-│   ├── Treatment
-│   └── Complications
-├── Hypertension
-│   ├── Classification
-│   ├── Treatment
-│   ├── Symptoms
-│   └── Risk Factors
-└── Drug Interactions
-    ├── Warfarin
-    ├── Statins
-    ├── ACE Inhibitors
-    └── Prevention
-```
-
-### Search Algorithm
-- **Keyword matching** - Identifies relevant content based on query terms
-- **Relevance scoring** - Ranks results by content similarity
-- **Multi-topic search** - Searches across all medical domains
-- **Context-aware responses** - Combines multiple sources for comprehensive answers
-
-## 📁 File Structure
-
-```
-medical-rag-offline/
-├── app-simple.py          # Main Streamlit application
-├── requirements.txt          # Python dependencies
-├── README.md                # This documentation
-└── assets/                  # Additional resources (if any)
+Advanced Medical Database
+├── Medical Conditions (100+)
+│   ├── Cardiovascular (15+)
+│   ├── Respiratory (10+)
+│   ├── Gastrointestinal (12+)
+│   ├── Neurological (8+)
+│   ├── Musculoskeletal (10+)
+│   ├── Mental Health (6+)
+│   ├── Infectious Diseases (15+)
+│   ├── Endocrine (8+)
+│   └── Other Specialties (16+)
+├── Drug Database (50+)
+│   ├── Cardiovascular Drugs
+│   ├── Diabetes Medications
+│   ├── Antibiotics
+│   ├── Pain Medications
+│   └── Mental Health Drugs
+├── Symptom Database (100+)
+│   ├── Emergency Symptoms
+│   ├── Common Symptoms
+│   └── Specialty Symptoms
+└── Emergency Conditions
+    ├── Life-threatening
+    ├── Urgent Care
+    └── When to Seek Help
 ```
 
-## 🔧 Configuration
+### Advanced Search Algorithm
+- **Multi-layer Matching** - Name, symptom, treatment, and cause matching
+- **Relevance Scoring** - Weighted scoring system with confidence levels
+- **Emergency Detection** - Automatic flagging of serious conditions
+- **Personalization** - User profile-based recommendations
+- **Caching System** - Improved performance with result caching
 
-### Customizing the Knowledge Base
-The medical knowledge is stored in the `MEDICAL_KNOWLEDGE` dictionary within `app-simple.py`. To add new medical topics:
+## 📁 Project Structure
 
-1. **Add new topic structure**:
+```
+advanced-medical-rag/
+├── app-enhanced.py              # Main enhanced application
+├── requirements-enhanced.txt    # Updated dependencies
+├── README.md                   # This comprehensive documentation
+├── Dockerfile                  # Docker configuration (optional)
+└── assets/                     # Additional resources
+    ├── medical-data/           # Extended medical databases
+    └── ui-components/          # Custom UI components
+```
+
+## 🔧 Configuration & Customization
+
+### Adding Medical Content
+The enhanced system makes it easy to add new medical information:
+
 ```python
-MEDICAL_KNOWLEDGE["new_topic"] = {
-    "subtopic1": "Medical information content...",
-    "subtopic2": "More medical information...",
-}
+# Add new medical condition
+new_condition = MedicalCondition(
+    name="New Condition Name",
+    icd10_code="ICD10-CODE",
+    symptoms=["symptom1", "symptom2"],
+    treatments=["treatment1", "treatment2"],
+    # ... additional fields
+)
 ```
 
-2. **Update search keywords** in the `search_medical_knowledge` function
-3. **Test with relevant queries**
+### Customizing the Interface
+- **Colors and Styling** - Modify CSS in the app file
+- **Layout Configuration** - Adjust column layouts and sections
+- **Feature Toggles** - Enable/disable specific tools and features
+- **Content Sections** - Add new medical tools and calculators
 
-### Interface Customization
-- **Colors and styling** - Modify the CSS in the `st.markdown()` sections
-- **Sample queries** - Update the `sample_queries` list
-- **Medical disclaimers** - Customize disclaimer text as needed
-
-## 🛠️ Dependencies
+## 🛠️ Enhanced Dependencies
 
 ```
-streamlit>=1.28.0
+streamlit>=1.28.0          # Web application framework
+pandas>=1.5.0              # Data manipulation and analysis
+numpy>=1.24.0              # Numerical computing
+plotly>=5.15.0             # Interactive visualizations
+requests>=2.31.0           # HTTP library for API calls
+python-dateutil>=2.8.2     # Date and time utilities
 ```
 
-That's it! The offline version has minimal dependencies by design.
+## 🎯 Key Improvements Made
 
-## 🔒 Privacy & Security
+### 1. **Expanded Knowledge Base**
+- Added 100+ comprehensive medical conditions
+- Detailed drug database with interactions
+- Extensive symptom checker with emergency detection
+- Evidence-based medical information with sources
 
-### Data Handling
-- **No data transmission** - All processing happens locally
-- **No logging** - Queries are not stored permanently
-- **No external calls** - No communication with external services
-- **Session-based** - Query history cleared when app restarts
+### 2. **Enhanced User Experience**
+- Modern, professional healthcare interface
+- Mobile-responsive design
+- Interactive elements and smooth navigation
+- User profile management and personalization
 
-### Medical Information Usage
-- **Educational purposes only** - Not for clinical decision making
-- **Evidence-based content** - Sourced from established medical guidelines
-- **Appropriate disclaimers** - Clear usage limitations provided
-- **Professional consultation recommended** - Emphasizes need for healthcare provider guidance
+### 3. **Advanced Search Functionality**
+- Semantic search with relevance scoring
+- Multiple search types and filters
+- Real-time results with confidence indicators
+- Search history and caching for performance
 
-## 🎯 Use Cases
+### 4. **Medical Tools Integration**
+- Drug interaction checker with severity levels
+- BMI calculator with health recommendations
+- Emergency contact information
+- Daily health tips and recommendations
 
-### Healthcare Education
-- **Medical students** - Learning disease presentations and treatments
-- **Nursing education** - Understanding medication interactions
-- **Healthcare training** - Reviewing clinical guidelines
-
-### Professional Reference
-- **Quick reference** - Rapid access to medical information
-- **Medication safety** - Drug interaction checking
-- **Clinical decision support** - Evidence-based information access
-
-### Research and Development
-- **Medical AI development** - Testing and prototyping
-- **Healthcare applications** - Integration into larger systems
-- **Knowledge management** - Organizing medical information
+### 5. **Safety & Compliance**
+- Comprehensive medical disclaimers
+- Emergency condition detection and alerts
+- Clear guidance on when to seek professional help
+- Privacy-focused offline operation
 
 ## 🚀 Deployment Options
 
 ### Local Development
 ```bash
-streamlit run app-simple.py
+streamlit run app-enhanced.py
 ```
 
 ### Network Sharing
 ```bash
-streamlit run app-simple.py --server.address 0.0.0.0 --server.port 8501
+streamlit run app-enhanced.py --server.address 0.0.0.0 --server.port 8501
 ```
-Access from other devices on your network at `http://your-ip:8501`
 
 ### Docker Deployment
 ```dockerfile
 FROM python:3.9-slim
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+COPY requirements-enhanced.txt .
+RUN pip install -r requirements-enhanced.txt
 COPY . .
 EXPOSE 8501
-CMD ["streamlit", "run", "app-simple.py", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "app-enhanced.py", "--server.address", "0.0.0.0"]
 ```
 
-## 🔄 Updates and Maintenance
+## 📊 Performance Metrics
 
-### Adding Medical Content
-1. Research reliable medical sources
-2. Update the `MEDICAL_KNOWLEDGE` dictionary
-3. Test search functionality
-4. Verify medical accuracy
-5. Update documentation
-
-### Performance Optimization
-- **Indexing** - Consider implementing search indexing for larger datasets
-- **Caching** - Use Streamlit caching for frequently accessed content
-- **Memory management** - Monitor memory usage with large knowledge bases
+- **Medical Conditions**: 100+ detailed conditions
+- **Drug Database**: 50+ medications with full profiles
+- **Symptom Database**: 100+ symptoms with analysis
+- **Search Performance**: <1 second response time
+- **UI Responsiveness**: Optimized for all device sizes
+- **Knowledge Coverage**: Major medical specialties included
 
 ## ⚠️ Important Medical Disclaimer
 
-**This system provides information for educational and research purposes only.**
+**This enhanced system provides information for educational and research purposes only.**
 
-- **Not for clinical use** - Do not use for patient diagnosis or treatment
-- **Professional consultation required** - Always consult qualified healthcare providers
-- **No warranty** - Information provided as-is without guarantees
-- **Educational focus** - Designed for learning and reference purposes
-- **Regular updates needed** - Medical knowledge evolves constantly
+- **Not for Clinical Diagnosis** - This tool does not replace professional medical advice
+- **Emergency Situations** - For medical emergencies, call 911 immediately
+- **Professional Consultation** - Always consult qualified healthcare providers
+- **Information Accuracy** - Medical knowledge evolves; verify with current sources
+- **Personal Health Decisions** - Do not make treatment decisions based solely on this information
 
 ## 🤝 Contributing
 
+We welcome contributions to improve the medical knowledge base and user experience:
+
 ### How to Contribute
 1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/medical-topic`)
-3. **Add medical content** with proper sourcing
-4. **Test thoroughly** with various queries
-5. **Submit a pull request** with detailed description
+2. **Create feature branch** (`git checkout -b feature/medical-enhancement`)
+3. **Add medical content** with proper medical references
+4. **Test thoroughly** with various medical queries
+5. **Submit pull request** with detailed description
 
 ### Contribution Guidelines
-- **Accurate medical information** - Verify all medical content
-- **Reliable sources** - Use established medical guidelines
-- **Clear documentation** - Explain changes and additions
-- **Testing** - Ensure search functionality works
-- **Disclaimers** - Maintain appropriate medical disclaimers
+- **Medical Accuracy** - Verify all medical information with reliable sources
+- **Evidence-Based Content** - Include references to medical literature
+- **User Experience** - Ensure changes improve usability
+- **Testing** - Test all functionality across different scenarios
+- **Documentation** - Update documentation for new features
 
-## 📞 Support
+## 📞 Support & Contact
 
 ### Getting Help
 - **Issues** - Report bugs or request features via GitHub Issues
-- **Documentation** - Check this README for common questions
-- **Community** - Join discussions in GitHub Discussions
+- **Documentation** - Comprehensive guides in this README
+- **Medical Questions** - Consult with healthcare professionals
+- **Technical Support** - Community support via GitHub Discussions
 
-### Common Issues
-1. **App won't start** - Check Python version and install requirements
-2. **Search not working** - Verify query format and try sample queries
-3. **Styling issues** - Clear browser cache and refresh
-4. **Performance slow** - Check available system memory
+### Common Issues & Solutions
+1. **App Won't Start** - Check Python version (3.8+) and install requirements
+2. **Search Not Working** - Verify query format and try sample queries
+3. **UI Display Issues** - Clear browser cache and refresh page
+4. **Performance Slow** - Check available system memory and close other apps
+5. **Missing Medical Info** - Submit requests for additional medical content
 
-## 📈 Roadmap
+## 📈 Future Enhancements
 
 ### Planned Features
-- [ ] **Expanded medical topics** - Cardiology, infectious diseases, etc.
-- [ ] **Advanced search** - Fuzzy matching and synonyms
-- [ ] **Export functionality** - Save responses and sources
-- [ ] **Multi-language support** - Additional language options
-- [ ] **Clinical calculators** - BMI, dosage calculations, etc.
+- [ ] **Multi-language Support** - Spanish, French, and other languages
+- [ ] **Advanced Visualization** - Interactive medical charts and graphs
+- [ ] **Lab Values Interpreter** - Analyze common lab test results
+- [ ] **Medication Reminders** - Personal medication tracking
+- [ ] **Health Risk Calculator** - Cardiovascular and diabetes risk assessment
+- [ ] **Telemedicine Integration** - Connect with healthcare providers
+- [ ] **Medical Image Analysis** - Basic radiology and dermatology support
 
 ### Long-term Vision
-- **Comprehensive medical reference** - Cover major medical specialties
-- **Integration capabilities** - API for other applications
-- **Collaborative knowledge base** - Community-driven content
-- **Mobile optimization** - Enhanced mobile experience
+- **Comprehensive Medical Platform** - All-in-one healthcare information system
+- **AI-Powered Insights** - Advanced machine learning for better recommendations
+- **Healthcare Provider Tools** - Professional features for medical practitioners
+- **Global Health Database** - International medical guidelines and practices
 
-## 📄 License
+## 📄 License & Acknowledgments
 
+### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+### Medical Sources & References
+- **American Medical Association (AMA)** - Medical practice guidelines
+- **Centers for Disease Control (CDC)** - Public health information
+- **World Health Organization (WHO)** - Global health standards
+- **National Institutes of Health (NIH)** - Medical research and guidelines
+- **Mayo Clinic** - Clinical practice information
+- **Cleveland Clinic** - Medical education resources
+- **American Heart Association** - Cardiovascular guidelines
+- **American Diabetes Association** - Diabetes care standards
 
-### Medical Sources
-- **American Diabetes Association** - Diabetes management guidelines
-- **American Heart Association** - Hypertension classification
-- **Clinical Pharmacology** - Drug interaction information
-- **Medical Literature** - Various clinical guidelines and references
-
-### Technology Stack
+### Technology Acknowledgments
 - **Streamlit** - Web application framework
-- **Python** - Programming language
-- **Healthcare Community** - Inspiration and guidance
+- **Python Community** - Programming language and libraries
+- **Medical Informatics Community** - Standards and best practices
+- **Open Source Contributors** - Various libraries and tools used
 
-## 📊 Statistics
+## 📊 Version History
 
-- **Medical Topics**: 3 major areas
-- **Subtopics**: 12+ specific medical areas
-- **Dependencies**: 1 (streamlit only)
-- **File Size**: < 100KB
-- **Performance**: < 1 second response time
-- **Compatibility**: Python 3.8+
+### Version 2.0 (Enhanced) - Current
+- Expanded knowledge base with 100+ conditions
+- Advanced search engine with relevance scoring
+- Modern user interface with professional design
+- Integrated medical tools (drug checker, BMI calculator)
+- Emergency condition detection and alerts
+- User profile management and personalization
+
+### Version 1.0 (Original)
+- Basic medical knowledge base (3 conditions)
+- Simple keyword search
+- Basic Streamlit interface
+- Limited functionality
 
 ---
 
-**Built with ❤️ for healthcare education and medical information accessibility.**
+**🏥 Built with ❤️ for healthcare education and medical information accessibility.**
 
 *Last updated: August 2025*
+
+**Contact:** For technical support or medical content suggestions, please use GitHub Issues or Discussions.
