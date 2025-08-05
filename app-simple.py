@@ -1001,15 +1001,15 @@ def main():
                 for i, result in enumerate(response["primary_results"]):
                     relevance_class = f"confidence-{result['relevance']}"
 
-                    with st.expander(f"Result {i+1}: {self._format_result_title(result)}", expanded=i<2):
+                    with st.expander(f"Result {i+1}: {st.session_state.response_generator._format_result_title(result)}", expanded=i<2):
                         st.markdown(f'<div class="result-container {relevance_class}">', unsafe_allow_html=True)
 
                         if result["type"] == "condition":
-                            self._display_condition_result(result["data"])
+                            st.session_state.response_generator._display_condition_result(result["data"])
                         elif result["type"] == "drug":
-                            self._display_drug_result(result["data"])
+                            st.session_state.response_generator._display_drug_result(result["data"])
                         elif result["type"] == "symptom":
-                            self._display_symptom_result(result["data"])
+                            st.session_state.response_generator._display_symptom_result(result["data"])
 
                         st.markdown(f"**Relevance Score:** {result['score']:.1f}/10")
                         st.markdown('</div>', unsafe_allow_html=True)
